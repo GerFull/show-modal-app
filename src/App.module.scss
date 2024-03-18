@@ -1,0 +1,29 @@
+.home{
+   position: relative;
+   width: 80vw;
+   height: 80vh;
+   padding: 50px;
+   box-sizing: border-box;
+}
+
+
+.inputs_controls{
+
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   right: 50px;
+   top:100px;
+   gap:20px;
+   padding:20px;
+   z-index: 1;
+   &__item{
+   
+      display: flex;
+   }
+}
+
+.text_loading{
+   font-size: 50px;
+   text-align: center;
+}
